@@ -1,0 +1,6 @@
+framework module Pods_OpenMP2_Tests {
+  umbrella header "Pods-OpenMP2_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D7EE2E498FED9089FFF1F19308DAF38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		63027A065C3D95FBFFCB03FE2AE917F6 /* OpenMP2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF6D2683DA1B57344A3B76B4DA85F4 /* OpenMP2-dummy.m */; };
+		67D32083E015AE751A97E369BC3D69FC /* Pods-OpenMP2_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F23D68007FC99A432069339C1CD32276 /* Pods-OpenMP2_Tests-dummy.m */; };
+		793E7149752057D8A27380E8A99BF6DB /* Pods-OpenMP2_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5975FE0A0035ED2C20DE715DA465E49 /* Pods-OpenMP2_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CDED05EE6A17C9BB596B415D2460DD1 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9B7AF0A045B11CED785063E82BD549 /* ReplaceMe.m */; };
+		B47D9F6515A686329ED6029A1713BC2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D47C8216C95666B5E8C803FA525F0A63 /* OpenMP2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B392A3187687550B94402CC6612FEB71 /* OpenMP2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3437E1595565C7DF6F5A7DFF5E09BA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6557D772C103A894CFD7158332B01AB3;
+			remoteInfo = OpenMP2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13FEBFC52F8F01A4795824A24FBF1F29 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1A9D1430D6E5C9EDDDCC01C9402DD370 /* Pods_OpenMP2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OpenMP2_Tests.framework; path = "Pods-OpenMP2_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		226C9580B7507EC5FC563539C671D9BD /* OpenMP2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OpenMP2.debug.xcconfig; sourceTree = "<group>"; };
+		25F6F8C7261A98427D42DDD1563D35E7 /* OpenMP2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OpenMP2.framework; path = OpenMP2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ECF6D2683DA1B57344A3B76B4DA85F4 /* OpenMP2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OpenMP2-dummy.m"; sourceTree = "<group>"; };
+		50949EF1A7F94457BE74C070ED1B6C18 /* Pods-OpenMP2_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenMP2_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		565DC6640E44FB16E4CD284EBBEE9D93 /* OpenMP2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OpenMP2.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5AB829A8B9274377586581944968A154 /* Pods-OpenMP2_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OpenMP2_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6502D8D5E135F3F61312E3B9DCF83E47 /* OpenMP2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OpenMP2-Info.plist"; sourceTree = "<group>"; };
+		6B1F384484395233D4FF74979F556ED7 /* Pods-OpenMP2_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenMP2_Tests-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F02FB80AB862289182B026E38A7D62F /* OpenMP2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpenMP2-prefix.pch"; sourceTree = "<group>"; };
+		A5975FE0A0035ED2C20DE715DA465E49 /* Pods-OpenMP2_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OpenMP2_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B174A90995F601870FC0A6A2BBD98201 /* OpenMP2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OpenMP2.modulemap; sourceTree = "<group>"; };
+		B392A3187687550B94402CC6612FEB71 /* OpenMP2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpenMP2-umbrella.h"; sourceTree = "<group>"; };
+		B3AA43589D5CACF8536B9CCE509A8A11 /* Pods-OpenMP2_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenMP2_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CD925F1C30362D97E93D32A6217259CB /* OpenMP2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OpenMP2.release.xcconfig; sourceTree = "<group>"; };
+		DA3BB3B0C5C07A7ABC315F0671B49B5A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E9B47E0DEEB1681E0E7DFAED1A80CFB1 /* Pods-OpenMP2_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenMP2_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB9B7AF0A045B11CED785063E82BD549 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = OpenMP2/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		EF6E995AA60E4D3CB152A0C7995FFF7F /* Pods-OpenMP2_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OpenMP2_Tests.modulemap"; sourceTree = "<group>"; };
+		F23D68007FC99A432069339C1CD32276 /* Pods-OpenMP2_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpenMP2_Tests-dummy.m"; sourceTree = "<group>"; };
+		F7475547DD8DFD4AFB63FE8B197A47EF /* Pods-OpenMP2_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpenMP2_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C74C47396FC22BAF67D2AB2E973DF81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D7EE2E498FED9089FFF1F19308DAF38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C571808D8D9D033102C7CB7C84B52090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B47D9F6515A686329ED6029A1713BC2A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12265EDC95BBA472A2B196FB6D65BA09 /* Pods-OpenMP2_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EF6E995AA60E4D3CB152A0C7995FFF7F /* Pods-OpenMP2_Tests.modulemap */,
+				F7475547DD8DFD4AFB63FE8B197A47EF /* Pods-OpenMP2_Tests-acknowledgements.markdown */,
+				B3AA43589D5CACF8536B9CCE509A8A11 /* Pods-OpenMP2_Tests-acknowledgements.plist */,
+				F23D68007FC99A432069339C1CD32276 /* Pods-OpenMP2_Tests-dummy.m */,
+				5AB829A8B9274377586581944968A154 /* Pods-OpenMP2_Tests-frameworks.sh */,
+				6B1F384484395233D4FF74979F556ED7 /* Pods-OpenMP2_Tests-Info.plist */,
+				A5975FE0A0035ED2C20DE715DA465E49 /* Pods-OpenMP2_Tests-umbrella.h */,
+				E9B47E0DEEB1681E0E7DFAED1A80CFB1 /* Pods-OpenMP2_Tests.debug.xcconfig */,
+				50949EF1A7F94457BE74C070ED1B6C18 /* Pods-OpenMP2_Tests.release.xcconfig */,
+			);
+			name = "Pods-OpenMP2_Tests";
+			path = "Target Support Files/Pods-OpenMP2_Tests";
+			sourceTree = "<group>";
+		};
+		148B750326F34AFB6E2C0DA18EC43446 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				13FEBFC52F8F01A4795824A24FBF1F29 /* LICENSE */,
+				565DC6640E44FB16E4CD284EBBEE9D93 /* OpenMP2.podspec */,
+				DA3BB3B0C5C07A7ABC315F0671B49B5A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		313B768380C90A0EB81BA19F42EE2049 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B243BF76125AFAD71597FFE330228DC /* OpenMP2 */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4B243BF76125AFAD71597FFE330228DC /* OpenMP2 */ = {
+			isa = PBXGroup;
+			children = (
+				EB9B7AF0A045B11CED785063E82BD549 /* ReplaceMe.m */,
+				148B750326F34AFB6E2C0DA18EC43446 /* Pod */,
+				AF7BDD927270A1443B1DB6BDB0F5407C /* Support Files */,
+			);
+			name = OpenMP2;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5292CA3A56C7633E059B83B47FD9180E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25F6F8C7261A98427D42DDD1563D35E7 /* OpenMP2.framework */,
+				1A9D1430D6E5C9EDDDCC01C9402DD370 /* Pods_OpenMP2_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		AF7BDD927270A1443B1DB6BDB0F5407C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B174A90995F601870FC0A6A2BBD98201 /* OpenMP2.modulemap */,
+				3ECF6D2683DA1B57344A3B76B4DA85F4 /* OpenMP2-dummy.m */,
+				6502D8D5E135F3F61312E3B9DCF83E47 /* OpenMP2-Info.plist */,
+				9F02FB80AB862289182B026E38A7D62F /* OpenMP2-prefix.pch */,
+				B392A3187687550B94402CC6612FEB71 /* OpenMP2-umbrella.h */,
+				226C9580B7507EC5FC563539C671D9BD /* OpenMP2.debug.xcconfig */,
+				CD925F1C30362D97E93D32A6217259CB /* OpenMP2.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OpenMP2";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				313B768380C90A0EB81BA19F42EE2049 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5292CA3A56C7633E059B83B47FD9180E /* Products */,
+				D5FBE26F55B3D924F4C8217E84E277B4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5FBE26F55B3D924F4C8217E84E277B4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				12265EDC95BBA472A2B196FB6D65BA09 /* Pods-OpenMP2_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		11D846D8C6082E7E7D8916610EFA72A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				793E7149752057D8A27380E8A99BF6DB /* Pods-OpenMP2_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33FFA79ABFEDE36C38F8110BAEC9385C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D47C8216C95666B5E8C803FA525F0A63 /* OpenMP2-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6557D772C103A894CFD7158332B01AB3 /* OpenMP2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91D7B6A9EB3C00E026B9FA9EFC67C314 /* Build configuration list for PBXNativeTarget "OpenMP2" */;
+			buildPhases = (
+				33FFA79ABFEDE36C38F8110BAEC9385C /* Headers */,
+				D7438CC1C4AA1A9D98836EC3C9C50F22 /* Sources */,
+				C571808D8D9D033102C7CB7C84B52090 /* Frameworks */,
+				31B0AEC0CBB238FF63D7A730574610D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenMP2;
+			productName = OpenMP2;
+			productReference = 25F6F8C7261A98427D42DDD1563D35E7 /* OpenMP2.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A23157BA6ED737E630C5028EA29D507D /* Pods-OpenMP2_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D052D752DD29E735FA2A5FCF583F7BBD /* Build configuration list for PBXNativeTarget "Pods-OpenMP2_Tests" */;
+			buildPhases = (
+				11D846D8C6082E7E7D8916610EFA72A4 /* Headers */,
+				1CD3BA015BAA814CA8A39C187C0E76FB /* Sources */,
+				5C74C47396FC22BAF67D2AB2E973DF81 /* Frameworks */,
+				D386A8C21B20AD81A59308CB014B9C29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2146622DBCDF6002D57CFDA4E3B7676 /* PBXTargetDependency */,
+			);
+			name = "Pods-OpenMP2_Tests";
+			productName = "Pods-OpenMP2_Tests";
+			productReference = 1A9D1430D6E5C9EDDDCC01C9402DD370 /* Pods_OpenMP2_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5292CA3A56C7633E059B83B47FD9180E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6557D772C103A894CFD7158332B01AB3 /* OpenMP2 */,
+				A23157BA6ED737E630C5028EA29D507D /* Pods-OpenMP2_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31B0AEC0CBB238FF63D7A730574610D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D386A8C21B20AD81A59308CB014B9C29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CD3BA015BAA814CA8A39C187C0E76FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67D32083E015AE751A97E369BC3D69FC /* Pods-OpenMP2_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7438CC1C4AA1A9D98836EC3C9C50F22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63027A065C3D95FBFFCB03FE2AE917F6 /* OpenMP2-dummy.m in Sources */,
+				8CDED05EE6A17C9BB596B415D2460DD1 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2146622DBCDF6002D57CFDA4E3B7676 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OpenMP2;
+			target = 6557D772C103A894CFD7158332B01AB3 /* OpenMP2 */;
+			targetProxy = B3437E1595565C7DF6F5A7DFF5E09BA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		431BA2B8298F0EE71735B9E0114E1955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5CF4393EA70972C73FDF7181A8001F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD925F1C30362D97E93D32A6217259CB /* OpenMP2.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OpenMP2/OpenMP2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OpenMP2/OpenMP2-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OpenMP2/OpenMP2.modulemap";
+				PRODUCT_MODULE_NAME = OpenMP2;
+				PRODUCT_NAME = OpenMP2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		662D90BF6E11E8F0EFBDD70E323F5A3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 226C9580B7507EC5FC563539C671D9BD /* OpenMP2.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OpenMP2/OpenMP2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OpenMP2/OpenMP2-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OpenMP2/OpenMP2.modulemap";
+				PRODUCT_MODULE_NAME = OpenMP2;
+				PRODUCT_NAME = OpenMP2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79759604D78320E712558F49DF19AA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8C9E0FC925E16EB02C791EEC0A498805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9B47E0DEEB1681E0E7DFAED1A80CFB1 /* Pods-OpenMP2_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OpenMP2_Tests/Pods-OpenMP2_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OpenMP2_Tests/Pods-OpenMP2_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EB0658CE0C375B83F0BB6351F6C518BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50949EF1A7F94457BE74C070ED1B6C18 /* Pods-OpenMP2_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OpenMP2_Tests/Pods-OpenMP2_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OpenMP2_Tests/Pods-OpenMP2_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79759604D78320E712558F49DF19AA9F /* Debug */,
+				431BA2B8298F0EE71735B9E0114E1955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91D7B6A9EB3C00E026B9FA9EFC67C314 /* Build configuration list for PBXNativeTarget "OpenMP2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662D90BF6E11E8F0EFBDD70E323F5A3C /* Debug */,
+				5CF4393EA70972C73FDF7181A8001F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D052D752DD29E735FA2A5FCF583F7BBD /* Build configuration list for PBXNativeTarget "Pods-OpenMP2_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C9E0FC925E16EB02C791EEC0A498805 /* Debug */,
+				EB0658CE0C375B83F0BB6351F6C518BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

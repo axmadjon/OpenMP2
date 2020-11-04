@@ -1,0 +1,16 @@
+PODS:
+  - OpenMP2 (0.1.0)
+
+DEPENDENCIES:
+  - OpenMP2 (from `../`)
+
+EXTERNAL SOURCES:
+  OpenMP2:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OpenMP2: d6c2b2c550baf97977b7047f306f6f1898b16cbd
+
+PODFILE CHECKSUM: 76eafbf654ec9e1ed24b7bfacd45ca98bec796df
+
+COCOAPODS: 1.10.0
