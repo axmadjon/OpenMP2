@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'OpenMP2' => ['OpenMP2/Assets/*.png']
   # }
 
-  s.preserve_paths = "OpenMP2/openmp.framework"
+  # s.preserve_paths = "OpenMP2/openmp.framework"
   s.public_header_files = "OpenMP2/openmp.framework/Headers/**/*.h"
   s.vendored_frameworks = "OpenMP2/openmp.framework"
   # s.header_dir = "openmp"
