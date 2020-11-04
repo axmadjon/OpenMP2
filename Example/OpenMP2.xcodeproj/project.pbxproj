@@ -17,7 +17,7 @@
 
 /* Begin PBXFileReference section */
 		1A2277D960572E9BC5A30721 /* Pods_OpenMP2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenMP2_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2656A799F1642CD05A8AC481 /* OpenMP2.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = OpenMP2.podspec; path = ../OpenMP2.podspec; sourceTree = "<group>"; };
+		2656A799F1642CD05A8AC481 /* OpenMP2.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OpenMP2.podspec; path = ../OpenMP2.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -29,8 +29,8 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		73E88359AD8ADEE6E808D275 /* Pods-OpenMP2_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenMP2_Tests.debug.xcconfig"; path = "Target Support Files/Pods-OpenMP2_Tests/Pods-OpenMP2_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9D82F2B41A4956029B7DAD64 /* Pods-OpenMP2_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenMP2_Tests.release.xcconfig"; path = "Target Support Files/Pods-OpenMP2_Tests/Pods-OpenMP2_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A022C79BB443F030F4B78333 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C9AE245C16C8A8F66FA7A06B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A022C79BB443F030F4B78333 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C9AE245C16C8A8F66FA7A06B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +114,6 @@
 				73E88359AD8ADEE6E808D275 /* Pods-OpenMP2_Tests.debug.xcconfig */,
 				9D82F2B41A4956029B7DAD64 /* Pods-OpenMP2_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -160,6 +159,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

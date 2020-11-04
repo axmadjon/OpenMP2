@@ -25,20 +25,24 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Axmadjon' => 'axmadjon.xamidov@gmail.com' }
-  s.source           = { :git => 'https://github.com/axmadjon/OpenMP2.git', :tag => s.version.to_s }
+  s.source           = { :http => 'https://github.com/Tencent/ncnn/releases/download/20200916/openmp.framework.zip' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '11.0'
 
-  s.source_files = 'OpenMP2/Classes/**/*'
+  s.source_files = 'openmp.framework/Versions/A/Headers/**/*.h'
   
   # s.resource_bundles = {
   #   'OpenMP2' => ['OpenMP2/Assets/*.png']
   # }
 
+  # s.preserve_paths = "openmp.framework"
+  s.public_header_files = "openmp.framework/Versions/A/Headers/**/*.h"
+  s.vendored_frameworks = "openmp.framework"
+  # s.header_dir = "openmp"
+  # s.header_mappings_dir = "openmp.framework/Versions/A/Headers/"
+
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-
-  s.vendored_frameworks = 'openmp.framework'
 end
