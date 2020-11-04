@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Axmadjon' => 'axmadjon.xamidov@gmail.com' }
-  s.source           = { :http => 'https://github.com/Tencent/ncnn/releases/download/20200916/openmp.framework.zip' }
+  s.source           = { :git => 'https://github.com/axmadjon/OpenMP2.git' :branch => 'main' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
