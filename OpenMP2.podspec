@@ -37,8 +37,8 @@ TODO: Add long description of the pod here.
   # }
 
   # s.preserve_paths = "OpenMP2/openmp.framework"
-  s.public_header_files = "OpenMP2/openmp.framework/Headers/**/*.h"
   s.vendored_frameworks = "OpenMP2/openmp.framework"
+  s.public_header_files = "OpenMP2/openmp.framework/Headers/**/*.h"  
   # s.header_dir = "openmp"
   # s.header_mappings_dir = "openmp.framework/Versions/A/Headers/"
 
