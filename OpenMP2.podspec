@@ -30,15 +30,15 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '11.0'
 
-  s.source_files = 'openmp.framework/Versions/A/Headers/**/*.h'
+  s.source_files = 'OpenMP2/openmp.framework/Headers/**/*.h'
   
   # s.resource_bundles = {
   #   'OpenMP2' => ['OpenMP2/Assets/*.png']
   # }
 
-  # s.preserve_paths = "openmp.framework"
-  s.public_header_files = "openmp.framework/Versions/A/Headers/**/*.h"
-  s.vendored_frameworks = "openmp.framework"
+  s.preserve_paths = "OpenMP2/openmp.framework"
+  s.public_header_files = "OpenMP2/openmp.framework/Headers/**/*.h"
+  s.vendored_frameworks = "OpenMP2/openmp.framework"
   # s.header_dir = "openmp"
   # s.header_mappings_dir = "openmp.framework/Versions/A/Headers/"
 
