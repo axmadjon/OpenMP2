@@ -1,0 +1,6 @@
+use_frameworks!
+target 'OpenMP2_Tests' do
+  pod 'OpenMP2', :path => '../'
+  
+  
+end
