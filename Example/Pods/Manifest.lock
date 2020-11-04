@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  OpenMP2: d6c2b2c550baf97977b7047f306f6f1898b16cbd
+  OpenMP2: b8eecaf5cdc2d65ca41c2bcf6c84085832b78d68
 
 PODFILE CHECKSUM: 76eafbf654ec9e1ed24b7bfacd45ca98bec796df
 

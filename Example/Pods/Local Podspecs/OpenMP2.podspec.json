@@ -3,20 +3,22 @@
   "version": "0.1.0",
   "summary": "A short description of OpenMP2.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/RichardGreat/OpenMP2",
+  "homepage": "https://github.com/axmadjon/OpenMP2",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "RichardGreat": "axmadjon.xamidov@gmail.com"
+    "Axmadjon": "axmadjon.xamidov@gmail.com"
   },
   "source": {
-    "git": "https://github.com/RichardGreat/OpenMP2.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/axmadjon/OpenMP2.git",
+    "branch": "main"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "11.0"
   },
-  "source_files": "OpenMP2/Classes/**/*"
+  "source_files": "OpenMP2/openmp.framework/Headers/**/*.h",
+  "vendored_frameworks": "OpenMP2/openmp.framework",
+  "public_header_files": "OpenMP2/openmp.framework/Headers/**/*.h"
 }

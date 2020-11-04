@@ -28,6 +28,8 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/axmadjon/OpenMP2.git', :branch => 'main' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+  s.platform              = :ios, '11.0'
+  s.requires_arc          = true
   s.ios.deployment_target = '11.0'
 
   s.source_files = 'OpenMP2/openmp.framework/Headers/**/*.h'
@@ -45,4 +47,8 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+
+  the_ldflags    = '$(inherited) -lz -lsqlite3 -liconv -lstdc++ '
+
+  s.xcconfig = { 'OTHER_LDFLAGS' => the_ldflags }
 end
